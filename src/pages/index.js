@@ -15,17 +15,25 @@ export default function Home({}) {
           </a>
         </div>
         <div className={`${pagesStyles.links} text-xl flex items-center`}>
-          <a className={`${pagesStyles.link} mr-6`} href="/about">
+          {/* <a className={`${pagesStyles.link} mr-6`} href="/about">
             About
-          </a>
+          </a> */}
           <a className={pagesStyles.link} href="/work">
             Work
           </a>
         </div>
       </div>
-      <div className={`${pagesStyles.photo} ${pagesStyles.animated}`}>
-        <img src="/images/banner.png" alt="Banner"></img>
+
+      <div className={`text-4xl font-bold mt-64 mb-24`}>
+        A small studio based in Pakistan creating art at the intersection of
+        physics and photography & videography.
       </div>
+
+      <div className={pagesStyles.divider} />
+
+      {/* <div className={`${pagesStyles.photo} ${pagesStyles.animated}`}>
+        <img src="/images/banner.png" alt="Banner"></img>
+      </div> */}
 
       <div className={`flex justify-between items-center mt-24`}>
         <div className={`max-w-sm`}>
