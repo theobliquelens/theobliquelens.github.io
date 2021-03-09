@@ -26,6 +26,51 @@ export default function Home({}) {
       <div className={`${pagesStyles.photo} ${pagesStyles.animated}`}>
         <img src="/images/banner.png" alt="Banner"></img>
       </div>
+
+      <div className={`flex justify-between items-center mt-24`}>
+        <div className={`max-w-sm`}>
+          <h2 className={`text-4xl font-bold mb-4`}>Wisaal</h2>
+          <div className={`text-lg mb-12`}>
+            Capturing the essence of soap bubble or soap film's moving colors by
+            creating realtime video footage of the actual volatility and
+            movement taking place within the soap bubble.
+          </div>
+          <button className={pagesStyles.button}>
+            View{' '}
+            <img
+              src="/images/rarrow.svg"
+              width="16"
+              className={pagesStyles.icon}
+            />
+          </button>
+        </div>
+
+        <div>
+          <img src="/images/placeholder.png" />
+        </div>
+      </div>
+
+      <div className={`flex justify-between items-center mt-24`}>
+        <div>
+          <img src="/images/placeholder.png" />
+        </div>
+        <div className={`max-w-sm`}>
+          <h2 className={`text-4xl font-bold mb-4`}>Heavenly Scapes</h2>
+          <div className={`text-lg mb-12`}>
+            Capturing the essence of soap bubble or soap film's moving colors by
+            creating realtime video footage of the actual volatility and
+            movement taking place within the soap bubble.
+          </div>
+          <button className={pagesStyles.button}>
+            View{' '}
+            <img
+              src="/images/rarrow.svg"
+              width="16"
+              className={pagesStyles.icon}
+            />
+          </button>
+        </div>
+      </div>
     </Layout>
   );
 }
