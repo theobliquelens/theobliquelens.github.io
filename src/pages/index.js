@@ -57,9 +57,8 @@ export default function Home({}) {
         <div className={`max-w-sm`}>
           <h2 className={`text-4xl font-bold mb-4`}>Heavenly Scapes</h2>
           <div className={`text-lg mb-12`}>
-            Capturing the essence of soap bubble or soap film's moving colors by
-            creating realtime video footage of the actual volatility and
-            movement taking place within the soap bubble.
+            Photographic abstracts created by apturing oil droplets with an
+            ultra macro lens.
           </div>
           <button className={pagesStyles.button}>
             View{' '}
