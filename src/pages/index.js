@@ -35,7 +35,7 @@ export default function Home({}) {
         <img src="/images/banner.png" alt="Banner"></img>
       </div> */}
 
-      <div className={`flex justify-between items-center mt-24`}>
+      <div className={`flex justify-between items-center mt-32`}>
         <div className={`max-w-sm`}>
           <h2 className={`text-4xl font-bold mb-4`}>Wisaal</h2>
           <div className={`text-lg mb-12`}>
